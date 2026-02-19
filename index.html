@@ -85,8 +85,19 @@
 			<figure>
 				<img src="images/fig6_vacancy_corp.png" alt="Bubble chart of housing vacancy rate vs corporate ownership rate by neighborhood, bubble size proportional to total population" />
 				<figcaption>
-					Finally, I looked at whether corporate ownership is associated with higher housing vacancy, which would support the argument that corporate landlords pull units off the market. There is a positive association: neighborhoods with higher corporate ownership tend to have more vacant units. Downtown and Chinatown are high on both axes, though their vacancy partly reflects commercial mixed-use properties rather than purely residential dynamics. South Boston Waterfront has high corporate ownership but relatively moderate vacancy, consistent with active leasing of newly built units. The relationship is real but not straightforward, and separating causality would require more granular data than this dataset provides.
+					I also looked at whether corporate ownership is associated with higher housing vacancy, which would support the argument that corporate landlords pull units off the market. There is a positive association: neighborhoods with higher corporate ownership tend to have more vacant units. Downtown and Chinatown are high on both axes, though their vacancy partly reflects commercial mixed-use properties rather than purely residential dynamics. South Boston Waterfront has high corporate ownership but relatively moderate vacancy, consistent with active leasing of newly built units. The relationship is real but not straightforward, and separating causality would require more granular data than this dataset provides.
 				</figcaption>
+			</figure>
+
+
+			<figure>
+				<img src="images/fig7_bar_2024.png" alt="Horizontal bar chart of corporate ownership rate by neighborhood in 2024" />
+				<figcaption>After the heatmap showed the overall trend, I wanted a cleaner snapshot of where each neighborhood actually stands in 2024. Sorting by rate makes the spread visible: South Boston Waterfront is a clear outlier at 41%, nearly double the next highest neighborhoods. About a third of neighborhoods sit above the city-wide average (dashed line), concentrated in areas closer to the urban core and major development corridors. The outer residential neighborhoods cluster at the low end, all under 15%. This is useful context for interpreting the time series, since neighborhoods that look similar in the heatmap are actually quite far apart in absolute terms by 2024.</figcaption>
+			</figure>
+
+			<figure>
+				<img src="images/fig8_poc_lines.png" alt="Line chart of corporate ownership rate over time for Roxbury, Mattapan" />
+				<figcaption>The race scatter suggested that racial composition alone does not predict corporate ownership well, but Roxbury, Mattapan, East Boston, and Dorchester, all neighborhoods with large Black and Latinx populations, are worth looking at more closely. Plotting their trajectories against the city-wide average shows all four have been climbing steadily and are now at or above it. East Boston in particular has grown sharply since 2015. This does not establish that corporate investors are targeting these neighborhoods because of their demographics, but it does mean the communities most likely to bear the burden of corporate landlordism based on the eviction research are seeing real and sustained increases in corporate ownership.</figcaption>
 			</figure>
 
 		</section>
@@ -94,9 +105,6 @@
 		<section>
 			<h2>Summary</h2>
 
-			<p>Corporate ownership increased in every Boston neighborhood between 2004 and 2024, rising from roughly 5% city-wide to over 20%, while owner occupancy declined in parallel. The growth accelerated after 2012 and continued through COVID-19 without reversal, suggesting this is a structural trend rather than a crisis-driven one. South Boston Waterfront, Fenway, and East Boston saw the sharpest increases, reflecting their proximity to major development corridors, while outer neighborhoods like Hyde Park and West Roxbury remained comparatively stable. The scatter of 2004-to-2024 changes confirms the near-universal inverse relationship: as corporate ownership rises, owner occupancy tends to fall. The racial composition findings were less clear-cut than expected. Geography and land value appear to be stronger predictors of corporate ownership than neighborhood demographics, though Roxbury, Mattapan, and East Boston have large communities of color and rising corporate ownership rates, which warrants closer attention. The vacancy analysis points to a positive association with corporate ownership, but causality is difficult to establish from this data alone. Ownership rates can indicate where corporations are buying, but not what happens to residents as a result.</p>
+			<p>Corporate ownership increased in every Boston neighborhood between 2004 and 2024, rising from roughly 5% city-wide to over 20%, while owner occupancy declined in parallel. The growth accelerated after 2012 and continued through COVID-19 without reversal, suggesting this is a structural trend rather than a crisis-driven one. South Boston Waterfront, Fenway, and East Boston saw the sharpest increases, reflecting their proximity to major development corridors, while outer neighborhoods like Hyde Park and West Roxbury remained comparatively stable. The scatter of 2004-to-2024 changes confirms the near-universal inverse relationship: as corporate ownership rises, owner occupancy tends to fall. The racial composition findings were less clear-cut than I expected. Geography and land value appear to be stronger predictors of corporate ownership than neighborhood demographics, though Roxbury, Mattapan, and East Boston have large communities of color and rising corporate ownership rates, which warrants closer attention. The vacancy analysis points to a positive association with corporate ownership, but causality is difficult to establish from this data alone. Ownership rates can indicate where corporations are buying, but not what happens to residents as a result.</p>
 
 		</section>
-	</main>
-</body>
-</html>
